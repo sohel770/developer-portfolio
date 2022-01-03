@@ -11,8 +11,12 @@ body{
 h1{
     font-size:50px;
 }
-.top-banner{
+section{
     display: flex;
+    margin-bottom: 120px;
+}
+.top-banner{
+    
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -40,4 +44,9 @@ h1{
    color:white;
    font-weight: 400;   
    border-radius: 10px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
