@@ -1,4 +1,43 @@
 body{
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+
+}
+.heading{
+    color:orangered;
+    text-transform: capitalize;
+}
+h1{
+    font-size:50px;
+}
+.top-banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width:50%;
+    padding-left: 5%;
+}
+.half-width h3{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.half-width img{
+    width:80%;
+}
+.half-width p{
+    font-size:22px;
+    line-height: 1.6;
+}
+.link-button{
+    text-transform:uppercase;
+    text-decoration: none;
+    padding: 10px 40px;
+   background-image: linear-gradient(orange,rgb(236, 47, 13)); 
+   color:white;
+   font-weight: 400;   
+   border-radius: 10px;
 }
